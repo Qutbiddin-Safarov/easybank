@@ -1,0 +1,273 @@
+/* public-sans-100 - latin */
+@font-face {
+    font-family: 'PublicSans';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/public-sans-v14-latin-100.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/public-sans-v14-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/public-sans-v14-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/public-sans-v14-latin-100.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/public-sans-v14-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/public-sans-v14-latin-100.svg#PublicSans') format('svg'); /* Legacy iOS */
+  }
+  /* public-sans-regular - latin */
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/public-sans-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/public-sans-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/public-sans-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/public-sans-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/public-sans-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/public-sans-v14-latin-regular.svg#PublicSans') format('svg'); /* Legacy iOS */
+  }
+body{
+    background-color: bisque;
+    font-family: 'PublicSans';
+}
+
+/* header layer */
+
+/* header navigation text */
+.list{
+    list-style: none;
+}
+
+.list-item{
+    display: inline-block;
+}
+.item-link{
+    text-decoration: none;
+    font-family: 'PublicSans';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.107692px;
+    color: #9597A5;
+}
+
+.item-link-btn{
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+    padding: 9px;
+}
+
+/* header navigation text */
+
+/* header main text */
+.header-text{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+.header-img{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* header h1 text */
+
+.header-h1{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2D314D;
+}
+
+.header-p-text{
+    font-family: 'PublicSans';
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+}
+
+.header-text-button{
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+    padding: 9px;
+}
+
+/* layer 2  */
+
+/* layer 2 main text */
+
+.second-layer-h2{
+    text-align: center;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+}
+/* second layer ul-li menu */
+.layer-2-ul{
+    list-style: none;
+    font-family: 'PublicSans';
+}
+.layer-2-li{
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+}
+.second-layer-p{
+    position: relative;
+    text-align: center;
+    font-family: 'PublicSans';
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+}
+
+/* second layer menu h3 */
+
+.menu-h3{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.428571px;
+    color: #2D314D;
+}
+
+.menu-p{
+    font-family: 'PublicSans';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #9597A5;
+}
+
+/* aticle layer */
+
+
+
+.article-h2{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+}
+
+/* article ul-li */
+.article-ul{
+    list-style: none;
+}
+.articles-li{
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+}
+.author-names{
+    font-family: 'PublicSans';
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.15625px;
+    color: #9597A5;
+}
+
+.article-main-p{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.285714px;
+    color: #2D314D;
+}
+
+.article-p{
+    font-family: 'PublicSans';
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.203125px;
+    color: #9597A5;
+}
+
+/* footer */
+
+.footer{
+    background-color: #2D314D;
+}
+.footer-nav-list{
+    list-style: none;
+    display: inline-block;
+}
+.footer-nav-list-2{
+    list-style: none;
+    display: inline-block;
+}
+.footer-nav-link{
+    text-decoration: none;
+    font-family: 'PublicSans';
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.234375px;
+    color: #FFFFFF;
+}
+
+.footer-btn{
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+    padding: 9px;   
+}
+
+.footer-images-link-div{
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}
+
+
+.footer-ul-div{
+    display: inline-block;
+    width: 600px;
+}
+
+.rihght-btn{
+    width: 200px;
+    display: inline-block;
+}
+.rights-p{
+    font-family: 'PublicSans';
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.234375px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
